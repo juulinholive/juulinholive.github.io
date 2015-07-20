@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[TheBigHead]]></title>
+    <link href="/blog/tags/google hacking.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2015-07-19T23:43:17-03:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Google Hacking BR]]></title>
+            <link href="/blog/2012/11/27/ghdb"/>
+            <updated>2012-11-27T00:00:00-02:00</updated>
+            <id>/blog/2012/11/27/ghdb</id>
+            <content type="html"><![CDATA[<h1 id="google-hacking">Google Hacking</h1>
+
+<ul>
+<li>Entendendo</li>
+<li>Dorks</li>
+<li>Roubando senhas</li>
+<li>Invadindo PhpMyAdmin</li>
+<li>Invadindo impressores remotas</li>
+<li>Roubado senhas de VPN</li>
+</ul>
+
+<h1 id="google-hacking%3A-entendendo">Google Hacking: Entendendo</h1>
+
+<p>O Google hacking envolve o uso de operadores avançados no Google, motor de busca para localizar sequências específicas de texto dentro de resultados de pesquisa. Alguns dos exemplos mais populares são, encontrar versões específicas de grupos vulneráveis em aplicações web.</p>
+
+<p>Alguns dos exemplos mais populares é encontrar versões específicas de grupos vulneráveis em aplicações web. As consultas de pesquisas a seguir seriam localizar todas as páginas que possuem um determinado texto contidas na página.</p>
+
+<p>Através do Google Hacking, você pode encontrar particularidades que talvez já tenham até saído do ar. Obtendo um número razoável de informações sobre um determinado alvo, é possível explorar suas vulnerabilidades.</p>
+
+<p>Esta ferramenta é tão robusta que pouco conhecemos sobre ela, primeiramente,
+devemos entender como o google funciona.</p>
+
+<h1 id="google-dorks">Google Dorks</h1>
+
+<p>Vai listar todas as paginas no dominio globo.com que contem "big brother".</p>
+
+<blockquote>
+  <p><strong>usando:</strong> site: - faz uma busca dentro de um dominio.           <br>
+  <strong>exemplo:</strong> "big brother site:globo.com"</p>
+</blockquote>
+
+<p><br></p>
+
+<p>Busca todas as paginas com titulo contendo as seguintes palavras "seja bem vindo".</p>
+
+<blockquote>
+  <p><strong>usando:</strong> allintitle: - faz uma busca por paginas que contem palavras especificas no titulo.            <br>
+  <strong>exemplo:</strong> "allintitle:seja bem vindo"</p>
+</blockquote>
+
+<p><br></p>
+
+<p>Busca todos os sites contendo "contato.asp" na url.</p>
+
+<blockquote>
+  <p><strong>usando:</strong> "allinurl:" - faz uma busca por endereços de url que contem palavras especificas.                <br>
+  <strong>exemplo:</strong> "allinurl:contato.asp“                <br></p>
+</blockquote>
+
+<p><br></p>
+
+<p>Irá efetuar uma busca da palavra senha no dominio esecurity.com.br</p>
+
+<blockquote>
+  <p><strong>usando:</strong> “inurl:” – Busca determinadas palavras dentro de um domínio       <br>
+  <strong>exemplo:</strong> senhas “inurl:esecurity.com.br”                <br></p>
+</blockquote>
+
+<p><br></p>
+
+<p>Irá buscar todos os arquivos .txt que possui palavras senhas dentro dele.</p>
+
+<blockquote>
+  <p><strong>usando:</strong> “filetype:“ - faz uma busca em determinadas extensões de arquivos.  <br>
+  <strong>exemplo:</strong> “senhas filetype:txt"                 <br></p>
+</blockquote>
+
+<p><br></p>
+
+<p>Busca todos os sites contendo "contato.asp" na url.</p>
+
+<blockquote>
+  <p><strong>usando:</strong> "allinurl:" - faz uma busca por endereços de url que contem palavras especificas.               <br>
+  <strong>exemplo:</strong> "allinurl:contato.asp“                <br></p>
+</blockquote>
+
+<p><br></p>
+
+<p>Irá efetuar uma busca da palavra senha no dominio esecurity.com.br</p>
+
+<blockquote>
+  <p><strong>usando:</strong> “inurl:” – Busca determinadas palavras dentro de um domínio       <br>
+  <strong>exemplo:</strong> senhas “inurl:esecurity.com.br”                    <br></p>
+</blockquote>
+
+<p><br></p>
+
+<h1 id="google-hacking-uma-ferramenta-poderosa">Google Hacking uma ferramenta poderosa</h1>
+
+<p>Busca por arquivos de banco de dados nomeados "usuarios.mdb" dentro do
+dominio mae ".com.br"</p>
+
+<blockquote>
+  <p><strong>usando:</strong> allinurl:usuarios.mdb site:.com.br</p>
+</blockquote>
+
+<p>Buscando por paginas de administracao dentro do dominio ".org"</p>
+
+<blockquote>
+  <p><strong>usando:</strong> allintitle:admin panel site:.org</p>
+</blockquote>
+
+<p>Lista todas as paginas com nome de "login.asp", e em alguns casos o google exibira uma versão "cache" da pagina onde será possível ver o codigo asp.</p>
+
+<blockquote>
+  <p><strong>usando:</strong> allinurl:login.asp</p>
+</blockquote>
+
+<h1 id="buscando-senhas-com-o-google-hacking">Buscando senhas com o Google Hacking</h1>
+
+<p>Buscando arquivos de anotações de senha:</p>
+
+<blockquote>
+  <p><strong>usando:</strong> intitle:”index of /” senhas.txt          <br>
+  <strong>usando:</strong> inurl:admin intext:username= AND email= AND password OR pass=     <br>
+  <strong>usando:</strong> filetype:xls + senha + com.br                   <br>
+  <strong>usando:</strong> filetype:txt intext:senha                                         <br></p>
+</blockquote>
+
+<p>Um pequeno exemplo : http://static.tumblr.com/eeczvca/Bi9m1gu4l/my_senhas.txt</p>
+
+<h1 id="encostrando-phpmyadmin-sem-senha">Encostrando phpmyadmin sem senha</h1>
+
+<blockquote>
+  <p><strong>usando:</strong> inurl:”phpmyadmin/index.php” intext:”[ Edit ] [ Create PHP Code ] [ Refresh ]”</p>
+</blockquote>
+
+<h1 id="phpmyadmin-sql-dump">phpMyAdmin SQL Dump</h1>
+
+<blockquote>
+  <p><strong>usando:</strong> intext:SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO"; = ext:txt</p>
+</blockquote>
+
+<h1 id="juice-files-info">Juice Files Info</h1>
+
+<p>Buscando backup de configurações de CMSs                       <br></p>
+
+<blockquote>
+  <p><strong>usando:</strong> intext:"~~Joomla1.txt" title:"Index of /"                       <br>
+  <strong>usando:</strong> configuration.php_ “&lt;?php class Jconfig {“                       <br>
+  <strong>usando:</strong> inurl:wp-config.old                       <br>
+  <strong>usando:</strong> inurl:"configuration.php.old" class JConfig                       <br>
+  <strong>usando:</strong> inurl:configuration.php.bkp                       <br></p>
+</blockquote>
+
+<h1 id="buscando-impressoras-remotas">Buscando impressoras remotas</h1>
+
+<p>Invadindo impressora remota</p>
+
+<blockquote>
+  <p><strong>usando:</strong> intitle:”Web Image Monitor” &amp; inurl:”/mainframe.cgi”</p>
+</blockquote>
+
+<h1 id="buscando-por-cameras">Buscando por cameras</h1>
+
+<p>Buscando câmeras disponíveis na internet.</p>
+
+<blockquote>
+  <p><strong>usando:</strong> inurl:LvAppl intitle:liveapplet                      <br>
+  <strong>usando:</strong> intitle:"Live View - AXIS 211"                      <br>
+  <strong>usando:</strong> inurl:"viewerframe?mode=motion“                      <br>
+  <strong>usando:</strong> inurl:”/control/userimage.html”                      <br></p>
+</blockquote>
+
+<h1 id="buscando-por-arquivos-importantes">Buscando por arquivos importantes</h1>
+
+<p>Buscando por arquivos de VPN</p>
+
+<blockquote>
+  <p><strong>usando:</strong> !HOST=<em>.</em> intext:enc_UserPassword=* ext:pcf</p>
+</blockquote>
+]]></content>
+        </entry>
+    </feed>
