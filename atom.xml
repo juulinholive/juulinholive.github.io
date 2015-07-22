@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[TheBigHead]]></title>
+    <link href="/atom.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2015-07-19T23:43:17-03:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Time travel]]></title>
+            <link href="/blog/2015/07/07/thebighead-security"/>
+            <updated>2015-07-07T00:00:00-03:00</updated>
+            <id>/blog/2015/07/07/thebighead-security</id>
+            <content type="html"><![CDATA[<h1 id="hello-world.">Hello world.</h1>
+
+<p>I am in the future.</p>
+
+<p><em>Markdown is cool.</em></p>
+
+<p><strong>So is twig, because it knows this page's name is: Time travel</strong></p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Syntax Highlighting]]></title>
+            <link href="/blog/2013/02/04/highlight"/>
+            <updated>2013-02-04T00:00:00-02:00</updated>
+            <id>/blog/2013/02/04/highlight</id>
+            <content type="html"><![CDATA[<p>You're all programmers, right? And you're writing code snippets on your Sculpin
+powered blog? Yeah. So you want some highlighting with your static site generation?
+Here you go!</p>
+
+<pre><code>namespace Foo;
+
+/**
+ * Awesome Contrived Example.
+ */
+class Bar implements BarInterface
+{
+    private $baz;
+
+    public function __construct(BazInterface $baz)
+    {
+        $this-&gt;baz = $baz;
+    }
+
+    public function doIt()
+    {
+        return $this-&gt;baz-&gt;do('it');
+    }
+}
+</code></pre>
+
+<p>You can also use <a href="http://michelf.ca/projects/php-markdown/extra/#fenced-code-blocks">fenced code blocks</a> with a syntax declaration at the top.
+You can use either <code>~</code> or <code>`</code> to mark them.</p>
+
+<pre><code class="php">if ($fencedCodeBlock-&gt;syntax !== 'PHP') {
+    throw new UnexpectedValueException("wat");
+}
+</code></pre>
+
+<p>Like this addition to the skeleton? You can thank for <a href="https://github.com/Pawka">@Pawka</a>
+for suggesting it. :)</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[This is a draft!]]></title>
+            <link href="/blog/2012/12/14/a-draft-post"/>
+            <updated>2012-12-14T00:00:00-02:00</updated>
+            <id>/blog/2012/12/14/a-draft-post</id>
+            <content type="html"><![CDATA[<p>This is a draft post. You will only see this if you are running the <code>dev</code>
+environment (<code>dev</code> is the default).</p>
+
+<p>All draft posts will automatically be tagged <code>draft</code> so they are easy to
+find.</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Lorem Ipsum]]></title>
+            <link href="/blog/2012/11/27/lorem-ipsum"/>
+            <updated>2012-11-27T00:00:00-02:00</updated>
+            <id>/blog/2012/11/27/lorem-ipsum</id>
+            <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat congue
+lacus vel convallis. Cras nisi urna, ultrices non semper quis, ultricies sit
+amet est. Donec nunc velit, consequat a pulvinar a, eleifend id leo. Curabitur
+vel leo eros, vitae elementum purus. Integer id lorem hendrerit purus gravida
+commodo. Pellentesque nec rhoncus turpis. Cras feugiat odio eget quam semper at
+dictum lectus adipiscing. In ut est et mauris pulvinar placerat eget fringilla
+lectus.</p>
+
+<p>Ut in mauris augue, vitae facilisis purus. Nam ullamcorper pharetra lorem,
+cursus lobortis tellus facilisis congue. Etiam ac dapibus lectus. Nunc tempus
+ullamcorper felis, eu sagittis risus mollis aliquam. Mauris congue orci ac metus
+egestas porta nec ac lectus. Nam ac neque vitae quam sagittis dapibus. Morbi sit
+amet erat ac justo rutrum molestie id in tortor. Proin egestas tortor neque,
+eget fringilla nunc. Donec consequat purus ac risus dignissim dignissim.
+Praesent dui nisl, suscipit sed cursus in, dictum non elit. Nulla eget congue
+nisl.</p>
+
+<p>Morbi hendrerit porta ante, dapibus adipiscing nibh ornare at. Nullam iaculis
+porta ante, at semper tellus auctor nec. Vestibulum nec justo sed purus
+elementum venenatis. In hac habitasse platea dictumst. Fusce nibh tellus, varius
+non commodo sit amet, eleifend placerat nisl. Donec sit amet enim cursus ligula
+adipiscing auctor. Nullam sagittis porta ligula vitae rutrum. Aenean id sapien
+mi, elementum ullamcorper lectus. Aliquam erat volutpat. Fusce bibendum, leo
+ultricies lacinia viverra, mauris urna fermentum sem, id tempus lectus nunc
+faucibus magna. Vestibulum risus mi, tempus ut lobortis non, mattis sed diam.
+Nunc at mattis leo.</p>
+
+<p>Ut erat nunc, vestibulum sit amet sodales non, tincidunt nec justo. Integer
+vitae tortor massa. Vestibulum tincidunt commodo lacus, ac cursus lorem mattis
+eu. Donec ut magna vel urna fermentum congue. Donec laoreet neque at velit
+imperdiet luctus. In consectetur lacus eu purus dictum a imperdiet leo
+ullamcorper. Phasellus consequat feugiat tincidunt. Quisque vel orci in mauris
+fermentum pretium.</p>
+
+<p>Pellentesque rhoncus accumsan auctor. Nunc venenatis tellus non ante pharetra
+pretium. Sed rutrum, eros eu tristique luctus, neque sapien ultrices felis, id
+varius orci erat eget leo. Curabitur ut volutpat diam. Phasellus porta neque
+vitae nisi sodales ultrices. Etiam ultricies blandit lorem, id accumsan eros
+facilisis vel. Praesent nulla sapien, laoreet sit amet dapibus sit amet,
+tincidunt vitae neque. Vestibulum aliquam sollicitudin urna, in facilisis dui
+aliquam id.</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Google Hacking BR]]></title>
+            <link href="/blog/2012/11/27/ghdb"/>
+            <updated>2012-11-27T00:00:00-02:00</updated>
+            <id>/blog/2012/11/27/ghdb</id>
+            <content type="html"><![CDATA[<h1 id="google-hacking">Google Hacking</h1>
+
+<ul>
+<li>Entendendo</li>
+<li>Dorks</li>
+<li>Roubando senhas</li>
+<li>Invadindo PhpMyAdmin</li>
+<li>Invadindo impressores remotas</li>
+<li>Roubado senhas de VPN</li>
+</ul>
+
+<h1 id="google-hacking%3A-entendendo">Google Hacking: Entendendo</h1>
+
+<p>O Google hacking envolve o uso de operadores avançados no Google, motor de busca para localizar sequências específicas de texto dentro de resultados de pesquisa. Alguns dos exemplos mais populares são, encontrar versões específicas de grupos vulneráveis em aplicações web.</p>
+
+<p>Alguns dos exemplos mais populares é encontrar versões específicas de grupos vulneráveis em aplicações web. As consultas de pesquisas a seguir seriam localizar todas as páginas que possuem um determinado texto contidas na página.</p>
+
+<p>Através do Google Hacking, você pode encontrar particularidades que talvez já tenham até saído do ar. Obtendo um número razoável de informações sobre um determinado alvo, é possível explorar suas vulnerabilidades.</p>
+
+<p>Esta ferramenta é tão robusta que pouco conhecemos sobre ela, primeiramente,
+devemos entender como o google funciona.</p>
+
+<h1 id="google-dorks">Google Dorks</h1>
+
+<p>Vai listar todas as paginas no dominio globo.com que contem "big brother".</p>
+
+<blockquote>
+  <p><strong>usando:</strong> site: - faz uma busca dentro de um dominio.           <br>
+  <strong>exemplo:</strong> "big brother site:globo.com"</p>
+</blockquote>
+
+<p><br></p>
+
+<p>Busca todas as paginas com titulo contendo as seguintes palavras "seja bem vindo".</p>
+
+<blockquote>
+  <p><strong>usando:</strong> allintitle: - faz uma busca por paginas que contem palavras especificas no titulo.            <br>
+  <strong>exemplo:</strong> "allintitle:seja bem vindo"</p>
+</blockquote>
+
+<p><br></p>
+
+<p>Busca todos os sites contendo "contato.asp" na url.</p>
+
+<blockquote>
+  <p><strong>usando:</strong> "allinurl:" - faz uma busca por endereços de url que contem palavras especificas.                <br>
+  <strong>exemplo:</strong> "allinurl:contato.asp“                <br></p>
+</blockquote>
+
+<p><br></p>
+
+<p>Irá efetuar uma busca da palavra senha no dominio esecurity.com.br</p>
+
+<blockquote>
+  <p><strong>usando:</strong> “inurl:” – Busca determinadas palavras dentro de um domínio       <br>
+  <strong>exemplo:</strong> senhas “inurl:esecurity.com.br”                <br></p>
+</blockquote>
+
+<p><br></p>
+
+<p>Irá buscar todos os arquivos .txt que possui palavras senhas dentro dele.</p>
+
+<blockquote>
+  <p><strong>usando:</strong> “filetype:“ - faz uma busca em determinadas extensões de arquivos.  <br>
+  <strong>exemplo:</strong> “senhas filetype:txt"                 <br></p>
+</blockquote>
+
+<p><br></p>
+
+<p>Busca todos os sites contendo "contato.asp" na url.</p>
+
+<blockquote>
+  <p><strong>usando:</strong> "allinurl:" - faz uma busca por endereços de url que contem palavras especificas.               <br>
+  <strong>exemplo:</strong> "allinurl:contato.asp“                <br></p>
+</blockquote>
+
+<p><br></p>
+
+<p>Irá efetuar uma busca da palavra senha no dominio esecurity.com.br</p>
+
+<blockquote>
+  <p><strong>usando:</strong> “inurl:” – Busca determinadas palavras dentro de um domínio       <br>
+  <strong>exemplo:</strong> senhas “inurl:esecurity.com.br”                    <br></p>
+</blockquote>
+
+<p><br></p>
+
+<h1 id="google-hacking-uma-ferramenta-poderosa">Google Hacking uma ferramenta poderosa</h1>
+
+<p>Busca por arquivos de banco de dados nomeados "usuarios.mdb" dentro do
+dominio mae ".com.br"</p>
+
+<blockquote>
+  <p><strong>usando:</strong> allinurl:usuarios.mdb site:.com.br</p>
+</blockquote>
+
+<p>Buscando por paginas de administracao dentro do dominio ".org"</p>
+
+<blockquote>
+  <p><strong>usando:</strong> allintitle:admin panel site:.org</p>
+</blockquote>
+
+<p>Lista todas as paginas com nome de "login.asp", e em alguns casos o google exibira uma versão "cache" da pagina onde será possível ver o codigo asp.</p>
+
+<blockquote>
+  <p><strong>usando:</strong> allinurl:login.asp</p>
+</blockquote>
+
+<h1 id="buscando-senhas-com-o-google-hacking">Buscando senhas com o Google Hacking</h1>
+
+<p>Buscando arquivos de anotações de senha:</p>
+
+<blockquote>
+  <p><strong>usando:</strong> intitle:”index of /” senhas.txt          <br>
+  <strong>usando:</strong> inurl:admin intext:username= AND email= AND password OR pass=     <br>
+  <strong>usando:</strong> filetype:xls + senha + com.br                   <br>
+  <strong>usando:</strong> filetype:txt intext:senha                                         <br></p>
+</blockquote>
+
+<p>Um pequeno exemplo : http://static.tumblr.com/eeczvca/Bi9m1gu4l/my_senhas.txt</p>
+
+<h1 id="encostrando-phpmyadmin-sem-senha">Encostrando phpmyadmin sem senha</h1>
+
+<blockquote>
+  <p><strong>usando:</strong> inurl:”phpmyadmin/index.php” intext:”[ Edit ] [ Create PHP Code ] [ Refresh ]”</p>
+</blockquote>
+
+<h1 id="phpmyadmin-sql-dump">phpMyAdmin SQL Dump</h1>
+
+<blockquote>
+  <p><strong>usando:</strong> intext:SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO"; = ext:txt</p>
+</blockquote>
+
+<h1 id="juice-files-info">Juice Files Info</h1>
+
+<p>Buscando backup de configurações de CMSs                       <br></p>
+
+<blockquote>
+  <p><strong>usando:</strong> intext:"~~Joomla1.txt" title:"Index of /"                       <br>
+  <strong>usando:</strong> configuration.php_ “&lt;?php class Jconfig {“                       <br>
+  <strong>usando:</strong> inurl:wp-config.old                       <br>
+  <strong>usando:</strong> inurl:"configuration.php.old" class JConfig                       <br>
+  <strong>usando:</strong> inurl:configuration.php.bkp                       <br></p>
+</blockquote>
+
+<h1 id="buscando-impressoras-remotas">Buscando impressoras remotas</h1>
+
+<p>Invadindo impressora remota</p>
+
+<blockquote>
+  <p><strong>usando:</strong> intitle:”Web Image Monitor” &amp; inurl:”/mainframe.cgi”</p>
+</blockquote>
+
+<h1 id="buscando-por-cameras">Buscando por cameras</h1>
+
+<p>Buscando câmeras disponíveis na internet.</p>
+
+<blockquote>
+  <p><strong>usando:</strong> inurl:LvAppl intitle:liveapplet                      <br>
+  <strong>usando:</strong> intitle:"Live View - AXIS 211"                      <br>
+  <strong>usando:</strong> inurl:"viewerframe?mode=motion“                      <br>
+  <strong>usando:</strong> inurl:”/control/userimage.html”                      <br></p>
+</blockquote>
+
+<h1 id="buscando-por-arquivos-importantes">Buscando por arquivos importantes</h1>
+
+<p>Buscando por arquivos de VPN</p>
+
+<blockquote>
+  <p><strong>usando:</strong> !HOST=<em>.</em> intext:enc_UserPassword=* ext:pcf</p>
+</blockquote>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[And Then There Was Textile Support]]></title>
+            <link href="/blog/2012/11/26/and-then-there-was-textile-support"/>
+            <updated>2012-11-26T00:00:00-02:00</updated>
+            <id>/blog/2012/11/26/and-then-there-was-textile-support</id>
+            <content type="html"><![CDATA[<p><a href="https://github.com/netcarver/textile">Textile</a> support was added on November 26th, 2012. Markdown is great, but so is choice. More converters for all!</p>
+
+<p>In honor of this milestone, this post is written in <strong>Textile</strong>.</p>]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Balrog]]></title>
+            <link href="/blog/2012/10/16/balrog"/>
+            <updated>2012-10-16T00:00:00-03:00</updated>
+            <id>/blog/2012/10/16/balrog</id>
+            <content type="html"><![CDATA[<p>Found out about <a href="http://github.com/igorw/balrog">Balrog</a> today! It looks
+like a really nice micro static site generator. Maybe Sculpin and Balrog
+can be friends?</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Symfony Live Hacking Day!]]></title>
+            <link href="/blog/2012/09/29/symfony-live-hacking-day"/>
+            <updated>2012-09-29T00:00:00-03:00</updated>
+            <id>/blog/2012/09/29/symfony-live-hacking-day</id>
+            <content type="html"><![CDATA[<p>Fun times at the Symfony Live San Francisco 2012 Hacking Day! Code
+was hacked and pizza was had. Some pics of the conference are
+available on the <a href="https://www.facebook.com/media/set/?set=a.450514941665306.112810.129739647076172">Sensio Labs Facebook page</a>.</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Happy Birthday Sculpin!]]></title>
+            <link href="/blog/2011/12/20/happy-birthday-sculpin"/>
+            <updated>2011-12-20T00:00:00-02:00</updated>
+            <id>/blog/2011/12/20/happy-birthday-sculpin</id>
+            <content type="html"><![CDATA[<p>The first commit to the Sculpin repository was made on December 20th, 2011.
+What a trip since then!</p>
+
+<p>Sculpin has always been a big fan of <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. So this post was
+written in Markdown. :)</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[]]></title>
+            <link href="/_posts/2012-11-27-ghdb.md~"/>
+            <updated>2012-11-27T00:00:00-02:00</updated>
+            <id>/_posts/2012-11-27-ghdb.md~</id>
+            <content type="html"><![CDATA[]]></content>
+        </entry>
+    </feed>
